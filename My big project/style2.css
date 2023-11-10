@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+body{
+    height: 100vh;
+    background-color: red ;
+}
+::selection{
+    color: orange;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem ;
+    scroll-behavior: smooth ;
+}
+.Berken{
+    min-height: 100vh;
+    background-image: url(./ozel-capa-kolejinde--yaz-okulu-devam-ediyor-AnaResim-30072019-125339-21808100.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;    position: relative;
+
+   
+         
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2% 6%;
+    top: 0; 
+    position: fixed;
+}
+nav img{
+    width: 150px;
+}
+.style{
+    display: flex;
+    text-align: right;
+    background-color: gray;
+    padding-left: 1200px;
+    position: absolute;
+    z-index: -1;
+    /* top: 0;
+    margin: 0;
+    position: sticky; */
+    margin-bottom: 60px;
+    width: max-content;
+    background-image: repeating-linear-gradient(45deg,transparent 0, 5px, white 5px 10px);
+    left: -85px;
+}
+
+.style ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 14px;
+    position: relative;
+}
+.style ul li a{
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.style ul li a:hover{
+   color: blue;
+    transition: 1s;
+}
+.buttons i{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+   
+    margin-top: 20px;
+}
+.search-input{
+    font-size: 16px;
+}
+.title{
+    text-align: end;
+    font-size: 30px;
+    margin-right: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    position: relative;
+    bottom: 60px;
+}
+.logo{
+    position: relative;
+    z-index: 999;
+}
+.h1{
+    margin-right: 10px;
+}
+.h4{
+    color: wheat;
+    margin-top: 10px;
+}
+.yazi{
+    font-size:20px ;
+    font-weight: bold;
+}
+.yazi:hover{
+    color: hotpink;
+    transition-duration: 1.5s;
+    
+  
+}
+.yazi-cercevesi{
+    width: 100%;
+    height: 300px;
+}
+/* mmain start */
+
+.main{
+    width: 900px;
+    height: 600px;
+    background-image: url(./5695967.jpg);
+
+
+}
+.schedule{
+    font-size: 20px;
+    text-align: center;
+}
+.grid{
+    display: grid;
+}
+.h3-information-for-schedule{
+    position: absolute;
+    right: 150px;
+    font-size: 20px;
+    color: white;
+}
+.div-schedule{
+    position: absolute;
+    right: 60px;
+
+}
+
+/* main ends */
+
+/* footer starts */
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+.footer div{
+    border: 1px solid black;
+    width: 550px;
+    height: 500px;
+    background-color: black;
+}
+footer p{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    margin-left:20px ;
+}
+.footer input{
+   
+    width: 250px;
+    height: 20px;
+    width: 160px;
+    position: absolute;
+    left: 610px;
+    top: 1545px;
+    cursor: pointer;
+    font-size: 20px;
+}
+footer label{
+    color: wheat;
+    font-size: 20px;
+}
+.footer button{
+    text-align: start;
+    font-size: 20px;
+}
+.information-for-schedule{
+    width: 500px;
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+}
